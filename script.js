@@ -1,8 +1,46 @@
-const plat = 40000;
+/* Vyplata jako stranka */
+
+/* const hodinovaSazba = prompt('Zadej svou hodinovou sazbu v Czk');
+const pocetHodin = Number(prompt('Zadej pocet pracovnich hodin za den'));
+const pocetDni = Number(prompt('Zadej pocet odpracovanych dni v mesici'));
+const hrubaMzda = hodinovaSazba * pocetHodin * pocetDni;
+document.body.innerHTML += 'Vase hruba mzda: ' + hrubaMzda + ',- Czk'; */
+
+/* Cviceni Ockovani
+
+const jmeno = prompt('Zadej svoje jmeno a prijmeni');
+const vek = Number(prompt('Zadej svuj vek'));
+document.body.innerHTML += jmeno + ', ' + 'vek: ' + vek; */
+
+/* Cviceni Ultramaraton
+
+const start = 15;
+const delka = 11;
+const konec = (start + delka) % 24;
+document.body.innerHTML += konec; */
+
+/* const start = 15;
+const delka = prompt('Zadej délku závodu:');
+const konec = (start + delka) % 24;
+document.body.innerHTML += konec;
+ */
+/*  Cviceni meny 
+
+const wageInEur = 20;
+const wageInCzk = 491;
+document.body.innerHTML += Math.round(wageInEur * 24.55);
+document.body.innerHTML += '<h1>Mzda v korunach:' + wageInCzk + 'Kc</h1>'; */
+
+/* Cviceni nahodna cisla 
+
+document.body.innerHTML += Math.random();
+document.body.innerHTML += '<br>';*/
+
+/* const plat = 40000;
 const naklady = plat * 0.6;
 const danSazba = 0.15;
 const dan = (plat - naklady) * danSazba;
-document.body.innerHTML += Math.floor(dan);
+document.body.innerHTML += Math.floor(dan); */
 
 /* document.body.innerHTML += 'Ahoj svete!' + ' ' + 'Ahoj!'; */
 
